@@ -60,6 +60,10 @@ class Song
     genre = Genre.find_or_create_by_name(file_genre)
     self.new(file_name, artist, genre)
   end
+  
+  def self.create_from_filename
+    
+  end
       
   
 end
