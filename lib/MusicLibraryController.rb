@@ -66,7 +66,7 @@ class MusicLibraryController
     input = gets.strip
     if Genre.find_by_name(input) #is truthy
       Genre.find_by_name(input).songs.sort {|a, b| a.name <=> b.name}.each_with_index do |song_instance, index|
-      puts "#{index + 1}. #{song_instance.name} - #{song_instance.artist.name}"
+      puts "#{index + 1}. #{song_instance.artist.name} - #{song_instance.name}"
     end
     end
   end 
