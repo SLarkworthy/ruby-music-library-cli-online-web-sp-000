@@ -28,7 +28,8 @@ class MusicLibraryController
   end
   
   def list_songs
-    Song.all
+    #we will need all the songs plus their indexes to number the list.
+    Song.all.each_with_index
   end
   
 end
