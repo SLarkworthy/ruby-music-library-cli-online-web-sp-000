@@ -56,7 +56,7 @@ class Song
     artist = splitfile[1]
     genre = splitfile[2].gsub(".mp3", "")
     
-    self.new(splitfile[0], splitfile[1], splitfile[2])
+    self.new(name, artist, genre)
   end
       
   
