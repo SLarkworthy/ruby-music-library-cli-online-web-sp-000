@@ -1,5 +1,5 @@
 module Concerns
-  module Fimdable
+  module Findable
     
     
     
