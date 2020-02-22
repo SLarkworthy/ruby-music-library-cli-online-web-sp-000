@@ -24,10 +24,10 @@ class MusicLibraryController
       puts "What would you like to do?"
       
       case input
-      when "list_songs" #==input 
-        self.list_songs
-      else
-        #puts "Invalid input"
+        when "list_songs" #==input 
+          self.list_songs
+        else
+          #puts "Invalid input"
       end
       
     end
