@@ -25,7 +25,7 @@ class MusicLibraryController
       
       case input
       when "list_songs" #==input 
-        
+        self.list_songs
       
     end
   end
