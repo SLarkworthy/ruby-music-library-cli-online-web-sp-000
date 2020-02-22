@@ -55,7 +55,7 @@ class MusicLibraryController
     input = gets.strip
     #format looks to be 1. song - genre
     if Artist.find_by_name(input) #is truthy
-      
+      Artist.find_by_name(input)
     end
   end
   
