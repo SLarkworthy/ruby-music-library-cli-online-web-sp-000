@@ -49,6 +49,11 @@ class Song
       self.find_by_name(name)
     end
   end
+  
+  def self.new_from_filename(filename)
+    splitfile = filename.split(" - ")
+    
+  end
       
   
 end
