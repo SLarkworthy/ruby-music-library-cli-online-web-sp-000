@@ -57,6 +57,7 @@ class Song
     genre = splitfile[2].gsub(".mp3", "")
     
     self.new(name, artist, genre)
+    artist = artist.find_or_create_by_name(artist)
   end
       
   
