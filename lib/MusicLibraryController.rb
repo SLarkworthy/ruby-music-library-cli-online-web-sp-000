@@ -24,7 +24,7 @@ class MusicLibraryController
       puts "What would you like to do?"
       
       case input
-        when "list_songs" #==input 
+        when "list songs" #==input 
           self.list_songs
         when "list artists"
           self.list_artists
