@@ -22,11 +22,9 @@ class MusicLibraryController
       puts "To quit, type 'exit'."
       puts "What would you like to do?"
       
-      
-      
+      #some case stuff will go here
       
     end
-    
   end
   
 end
