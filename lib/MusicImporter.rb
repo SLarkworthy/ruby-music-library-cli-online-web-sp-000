@@ -6,7 +6,6 @@ class MusicImporter
   end 
   
   def files 
-    puts Dir.entries(@path)
     puts @files ||= Dir.glob("#{path}/*.mp3").collect{ |f| f.gsub("#{path}/", "") }
   end
   
