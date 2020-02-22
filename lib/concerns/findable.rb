@@ -1,7 +1,7 @@
 module Concerns
   module Findable
      
-    def ind_by_name(name)
+    def find_by_name(name)
       self.all.find{|song| song.name == name}
     end
   
