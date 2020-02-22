@@ -30,7 +30,8 @@ class MusicLibraryController
   def list_songs
     #we will need all the songs plus their indexes to number the list.
     #Song.all will give us alll instances of the song class
-    puts Song.all.collect{|s| s.name}.sort 
+    #we want a custom sorting method to sort instances by name.
+    puts Song.all. 
   end
   
 end
