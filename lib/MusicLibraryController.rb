@@ -1,5 +1,5 @@
 class MusicLibraryController
-  aattr_accessor :path
+  attr_accessor :path
   
   
   def initialize(path = nil)
