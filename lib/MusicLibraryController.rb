@@ -31,7 +31,7 @@ class MusicLibraryController
     #we will need all the songs plus their indexes to number the list.
     #Song.all will give us alll instances of the song class
     #we want a custom sorting method to sort instances by name.
-    puts Song.all.{|a, b| a.name <=> b.name} 
+    puts Song.all.sort{|a, b| a.name <=> b.name} 
   end
   
 end
