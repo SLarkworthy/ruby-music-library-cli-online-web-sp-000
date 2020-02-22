@@ -29,7 +29,8 @@ class MusicLibraryController
   
   def list_songs
     #we will need all the songs plus their indexes to number the list.
-    Song.all.each_with_index
+    #Song.all will give us alll instances of the song class
+    #Song.all.collect{|s| s.name}.sort 
   end
   
 end
