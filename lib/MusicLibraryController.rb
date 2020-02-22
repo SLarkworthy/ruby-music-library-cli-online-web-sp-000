@@ -9,8 +9,7 @@ class MusicLibraryController
   end
   
   def call 
-    
-    input = ""
+    input = "" #acts as a switch for the while loop
     while (input != "exit")
       input = gets.strip
       puts "Welcome to your music library!"
@@ -22,6 +21,9 @@ class MusicLibraryController
       puts "To play a song, enter 'play song'."
       puts "To quit, type 'exit'."
       puts "What would you like to do?"
+      
+      
+      
       
     end
     
