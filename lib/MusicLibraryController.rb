@@ -1,3 +1,4 @@
+
 class MusicLibraryController
   attr_accessor :path
   
@@ -54,6 +55,7 @@ class MusicLibraryController
     input = gets.strip
     #format looks to be 1. song - genre
     if Artist.find_by_name(input)
+    end
   end
   
   def list_songs_by_genre
