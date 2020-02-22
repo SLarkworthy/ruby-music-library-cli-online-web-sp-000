@@ -32,7 +32,7 @@ class MusicLibraryController
     #Song.all will give us alll instances of the song class
     #we want a custom sorting method to sort instances by name.
     #the final product should be the format 1.artist - name - genre.
-    puts Song.all.sort {|a, b| a.name <=> b.name} 
+    puts Song.all.sort {|a, b| a.name <=> b.name}.each_with_index do |song_instance,|
   end
   
 end
